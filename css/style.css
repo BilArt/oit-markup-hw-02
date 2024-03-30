@@ -1,3 +1,27 @@
+:root {
+  --navy-blue: #2E2F42;
+  --slate-color: #434455;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #F4F4FD;
+  --white-color: #FFFFFF;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+    color: var(--iris-color);
+}
+
+.custom-link {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
 }
