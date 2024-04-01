@@ -12,8 +12,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--slate-color);
-  size: 16px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 
@@ -25,8 +25,23 @@ span {
   color: var(--iris-color);
 }
 
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .custom-link {
