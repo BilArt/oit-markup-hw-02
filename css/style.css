@@ -1,15 +1,20 @@
 :root {
-  --navy-blue: #2E2F42;
+  --navy-blue: #2e2f42;
   --slate-color: #434455;
   --iris-color: #4d5ae5;
   --ocean-color: #404bbf;
   --cornflower-color: #e7e9fc;
-  --cloud-color: #F4F4FD;
-  --white-color: #FFFFFF;
+  --cloud-color: #f4f4fd;
+  --white-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--slate-color);
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 ul {
@@ -17,11 +22,15 @@ ul {
 }
 
 span {
-    color: var(--iris-color);
+  color: var(--iris-color);
+}
+
+.flex {
+    display: flex;
 }
 
 .custom-link {
-    text-decoration: none; 
-    color: inherit; 
-    cursor: pointer; 
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
 }
