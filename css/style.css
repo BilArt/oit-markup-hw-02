@@ -26,18 +26,21 @@ span {
 }
 
 h1 {
+  color: var(--white-color);
   font-size: 56px;
   line-height: 1.07;
 }
 
 h2 {
+  color: var(--navy-blue);
   font-size: 36px;
   line-height: 1.11;
 }
 
 h3 {
-    font-size: 20px;
-    line-height: 1.2;
+  color: var(--navy-blue);
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .flex {
@@ -48,4 +51,58 @@ h3 {
   text-decoration: none;
   color: inherit;
   font-style: normal;
+  font-weight: 500;
+}
+
+.custom-link:active {
+  color: var(--ocean-color);
+}
+
+.custom-link__logo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 1.16;
+  color: inherit;
+  font-style: normal;
+}
+
+/* footer */
+footer {
+  background-color: var(--navy-blue);
+  color: var(--cloud-color);
+}
+
+/* index.html */
+
+/* Solutions-section */
+.solutions-section {
+  background-color: var(--navy-blue);
+}
+
+.solutions-section__button {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  border: 0;
+}
+
+/* portfolio */
+
+.portfolio__button {
+  color: var(--iris-color);
+  background-color: var(--cornflower-color);
+  border: 0;
+  border-radius: 4px;
+}
+
+.portfolio__button:hover {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
+}
+
+.portfolio__button:active {
+  color: var(--white-color);
+  background-color: var(--ocean-color);
 }
